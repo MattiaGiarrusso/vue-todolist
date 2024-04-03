@@ -3,3 +3,75 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 400px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.input-area {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.input-task {
+    padding: 6px 12px;
+    border-radius: 10px;
+    border: 2px solid #001533;
+}
+
+.btn-add {
+    margin-left: 10px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    background-color: #00E165;
+    border: 2px solid #00E165;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.user-error {
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.error-text {
+    color: red;
+    font-weight: 700;
+}
+
+.todo-list {
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 20px 20px;
+    width: 700px;
+    background-color: #ECEBEC;
+    border-radius: 10px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid lightgray;
+    padding: 10px;
+}
+
+.task-done {
+    text-decoration: line-through;
+}
